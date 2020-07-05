@@ -10,6 +10,8 @@ Install the dependencies with
  yarn install
  ```
 
+Due to a mix of dependencies and unstable versions of some packages this project has run on `node v12.16.3` or similar.
+
 ## Configuration
 
 This project uses `dotenv` inject variables at runtime. Make sure to create one or include the account **mnemonic** in the `compile.js` file.
